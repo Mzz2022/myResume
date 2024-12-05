@@ -1,0 +1,14 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+.resume-container{
+  height: 297mm;
+  width: 210mm;
+  background-color: #a65a5a;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
