@@ -26,4 +26,3 @@ npx vite
 - Antd
 - JavaScript
 - Vite
-  ···
