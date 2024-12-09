@@ -1,0 +1,14 @@
+.section-header {
+  position: relative;
+  color: #247b10;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+hr {
+  /* 颜色 */
+  color: #41c26c; /* 红色 */
+  /* 分割线厚度 */
+  border-top: 3px solid currentColor; /* 使用当前颜色作为边框颜色 */
+  border-radius: 100px;
+}

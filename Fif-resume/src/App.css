@@ -4,11 +4,51 @@
   /* padding: 2rem; */
   text-align: center;
 }
-.resume-container{
+.resume-container {
+  /* 固定 a4 纸大小 */
   height: 297mm;
   width: 210mm;
-  background-color: #a65a5a;
+  /* 简历背景颜色 */
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   overflow: hidden;
+  padding: 10px;
+  border-radius: 10px;
+}
+.person {
+  width: 97%;
+  height: 10%;
+  /* border: 3px solid rgb(75, 154, 211); */
+  border-radius: 10px;
+}
+.school {
+  width: 97%;
+  height: 10%;
+  /* border: 3px solid rgb(75, 154, 211); */
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.work {
+  width: 97%;
+  height: 20%;
+  /* border: 3px solid rgb(75, 154, 211); */
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.projects {
+  width: 97%;
+  height: 40%;
+  /* border: 3px solid rgb(75, 154, 211); */
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.skills {
+  width: 97%;
+  height: 18%;
+  /* border: 3px solid rgb(75, 154, 211); */
+  border-radius: 10px;
+  margin-top: 5px;
 }
