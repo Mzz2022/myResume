@@ -1,8 +1,13 @@
-#root {
-  /* max-width: 1280px; */
-  margin: 0 auto;
-  /* padding: 2rem; */
-  text-align: center;
+.Resume-page {
+  height: 100vh;
+  padding-top: 100px;
+  background: #1f242d;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #f5f7fa; */
 }
 .resume-container {
   /* 固定 a4 纸大小 */

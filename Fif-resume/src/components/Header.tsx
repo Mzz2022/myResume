@@ -1,6 +1,5 @@
 import React from "react";
-import styles from "./SectionHeader.module.css";
-
+import "./Header.css";
 interface SectionHeaderProps {
   title: string;
 }
@@ -8,7 +7,7 @@ interface SectionHeaderProps {
 const SectionHeader: React.FC<SectionHeaderProps> = ({ title }) => {
   return (
     <>
-      <h4 className={styles["section-header"]}>{title}</h4>
+      <h4 className={"section-header"}>{title}</h4>
       <hr className="custom" />
       {/* <p>更多的文本...</p> */}
     </>
