@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal PortFolio Website Using HTML & CSS | Codehal</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="logo">PortFolio.</a>
+      <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">PortFolio</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="bars-animation">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
+    </div>
+    <section class="home">
+      <div class="home-info">
+        <h1>Welcome</h1>
+        <h2>
+          I'm a
+          <span style="--i: 4" data-text="Frontend Developer"
+            >Frontend Developer</span
+          >
+          <span style="--i: 3" data-text="Student">Student</span>
+          <span style="--i: 2" data-text="Chinese">Chinese</span>
+          <span style="--i: 1" data-text="Cool boy">Cool boy</span>
+        </h2>
+        <p></p>
+        <div class="skill">
+          <div class="mySkills"><h2>mySkills:</h2></div>
+          <div class="skills">
+            <a href="#"><img src="./public/react.svg" alt="react" /></a>
+            <a href="#"
+              ><img src="./public/typescript.svg" alt="typescript"
+            /></a>
+            <a href="#"><img src="./public/nodejs.svg" alt="nodejs" /></a>
+            <a href="#"><img src="./public/Webpack.svg" alt="webpack" /></a>
+          </div>
+        </div>
+        <div class="btn-sci">
+          <a href="#"><i class="btn">my Resume</i></a>
+          <div class="sci">
+            <a href="https://github.com/Mzz2022" target="_blank" rel="noopener"
+              ><img src="./public/github.svg" alt="github"
+            /></a>
+            <a
+              href="https://blog.csdn.net/Mz0127"
+              target="_blank"
+              rel="noopener"
+              ><img src="./public/juejin.svg" alt="juejin"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img src="./public/mingren.jpg" alt="pic" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
