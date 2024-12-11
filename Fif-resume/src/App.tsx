@@ -1,9 +1,9 @@
 // import mySvg from './assets/dui.svg'
-import Show from "./components/Show";
+import Nav from "./components/Nav";
 function App() {
   return (
     <>
-      <Show />
+      <Nav />
     </>
   );
 }

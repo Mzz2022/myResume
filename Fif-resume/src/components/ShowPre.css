@@ -6,57 +6,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.navbar {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  padding: 25px 9%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
-  visibility: hidden;
-  opacity: 0;
-  animation: show-content 1.5s linear forwards;
-  animation-delay: 0.5s;
-}
-
-@keyframes show-content {
-  100% {
-    visibility: visible;
-    opacity: 1;
-  }
-}
-
-.navbar .logo {
-  font-size: 30px;
-  font-weight: 700;
-}
-
-.navbar ul {
-  display: flex;
-}
-.navbar ul li {
-  list-style: none;
-  margin-left: 35px;
-}
-
-.navbar ul li a {
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.navbar ul li:hover a,
-.navbar ul li.active a {
-  color: #7cf03d;
-}
-
 .home {
   display: flex;
   align-items: center;

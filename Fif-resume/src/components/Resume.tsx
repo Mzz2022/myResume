@@ -1,8 +1,10 @@
 import SectionHeader from "./Header";
+import React from "react";
+
 // import { useEffect } from "react";
 import "./Resume.css";
 
-const Resume = () => {
+const Resume: React.FC = () => {
   // useEffect(() => {
   //   // 导入 CSS 文件的逻辑
   //   import("./Resume.css")
@@ -43,6 +45,7 @@ const Resume = () => {
           <SectionHeader title="技能" />
         </div>
       </div>
+      <div className="k"></div>
     </div>
   );
 };

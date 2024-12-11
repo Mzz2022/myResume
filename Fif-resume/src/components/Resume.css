@@ -1,5 +1,7 @@
-.Resume-page {
+#root {
   height: 100vh;
+}
+.Resume-page {
   padding-top: 100px;
   background: #1f242d;
   width: 100%;
@@ -7,12 +9,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background-color: #f5f7fa; */
+  min-height: 100%;
 }
 .resume-container {
   /* 固定 a4 纸大小 */
+  /* height: 297mm; */
+  /* width: 210mm; */
+  aspect-ratio: 210 / 297;
   height: 297mm;
-  width: 210mm;
   /* 简历背景颜色 */
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   display: flex;
@@ -22,6 +26,17 @@
   overflow: hidden;
   padding: 10px;
   border-radius: 10px;
+  animation: fadeInUp 1.5s ease-in-out forwards;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .person {
   width: 97%;
@@ -56,4 +71,24 @@
   /* border: 3px solid rgb(75, 154, 211); */
   border-radius: 10px;
   margin-top: 5px;
+}
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .Resume-page {
+    padding-top: 20px; /* 减少顶部填充 */
+  }
+  .resume-container {
+    width: 60%; /* 宽度占满屏幕 */
+    height: auto; /* 高度自适应 */
+    padding: 5px; /* 调整内边距 */
+  }
+  .person,
+  .school,
+  .work,
+  .projects,
+  .skills {
+    width: 95%; /* 略微减小宽度 */
+    padding: 5px; /* 增加内边距 */
+    margin-top: 10px; /* 增加间隔 */
+  }
 }
