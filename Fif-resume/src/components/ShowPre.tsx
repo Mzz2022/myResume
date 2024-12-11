@@ -1,4 +1,12 @@
 import React, { CSSProperties, useEffect } from "react";
+import Reactsvg from "../../public/react.svg";
+import tssvg from "../../public/typescript.svg";
+import nodejs from "../../public/nodejs.svg";
+import webpack from "../../public/Webpack.svg";
+import github from "../../public/github.svg";
+import juejin from "../../public/juejin.svg";
+import mingren from "../../public/mingren.jpg";
+
 // 自定义类型扩展 CSSProperties
 interface CustomCSSProperties extends CSSProperties {
   "--i"?: number;
@@ -65,16 +73,16 @@ const ShowPre: React.FC = () => {
             </div>
             <div className="skills">
               <a href="#">
-                <img src="../../public/react.svg" alt="react" />
+                <img src={Reactsvg} alt="react" />
               </a>
               <a href="#">
-                <img src="../../public/typescript.svg" alt="typescript" />
+                <img src={tssvg} alt="typescript" />
               </a>
               <a href="#">
-                <img src="../../public/nodejs.svg" alt="nodejs" />
+                <img src={nodejs} alt="nodejs" />
               </a>
               <a href="#">
-                <img src="../../public/Webpack.svg" alt="webpack" />
+                <img src={webpack} alt="webpack" />
               </a>
             </div>
           </div>
@@ -88,14 +96,14 @@ const ShowPre: React.FC = () => {
                 target="_blank"
                 rel="noopener"
               >
-                <img src="./public/github.svg" alt="github" />
+                <img src={github} alt="github" />
               </a>
               <a
                 href="https://blog.csdn.net/Mz0127"
                 target="_blank"
                 rel="noopener"
               >
-                <img src="./public/juejin.svg" alt="juejin" />
+                <img src={juejin} alt="juejin" />
               </a>
             </div>
           </div>
@@ -103,7 +111,7 @@ const ShowPre: React.FC = () => {
         <div className="home-img">
           <div className="img-box">
             <div className="img-item">
-              <img src="./public/mingren.jpg" alt="pic" />
+              <img src={mingren} alt="mingren" />
             </div>
           </div>
         </div>
