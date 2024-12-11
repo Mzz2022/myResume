@@ -1,29 +1,30 @@
 import SectionHeader from "./Header";
-import { useEffect } from "react";
+// import { useEffect } from "react";
+import "./Resume.css";
 
 const Resume = () => {
-  useEffect(() => {
-    // 导入 CSS 文件的逻辑
-    import("./Resume.css")
-      .then((module) => {
-        // 可以在这里处理导入成功的逻辑
-        console.log("App.css module imported successfully:", module);
-      })
-      .catch((error) => {
-        // 可以在这里处理导入失败的逻辑
-        console.error("Failed to load App.css module:", error);
-      });
+  // useEffect(() => {
+  //   // 导入 CSS 文件的逻辑
+  //   import("./Resume.css")
+  //     .then((module) => {
+  //       // 可以在这里处理导入成功的逻辑
+  //       console.log("App.css module imported successfully:", module);
+  //     })
+  //     .catch((error) => {
+  //       // 可以在这里处理导入失败的逻辑
+  //       console.error("Failed to load App.css module:", error);
+  //     });
 
-    // import("../index.css")
-    //   .then((module) => {
-    //     // 可以在这里处理导入成功的逻辑
-    //     console.log("index.css module imported successfully:", module);
-    //   })
-    //   .catch((error) => {
-    //     // 可以在这里处理导入失败的逻辑
-    //     console.error("Failed to load index.css module:", error);
-    //   });
-  }, []);
+  // import("../index.css")
+  //   .then((module) => {
+  //     // 可以在这里处理导入成功的逻辑
+  //     console.log("index.css module imported successfully:", module);
+  //   })
+  //   .catch((error) => {
+  //     // 可以在这里处理导入失败的逻辑
+  //     console.error("Failed to load index.css module:", error);
+  //   });
+  // }, []);
 
   return (
     <div className="Resume-page">
