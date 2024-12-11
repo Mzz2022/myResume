@@ -1,4 +1,4 @@
-import React, { CSSProperties, useEffect } from "react";
+import React, { CSSProperties } from "react";
 import Reactsvg from "../../public/react.svg";
 import tssvg from "../../public/typescript.svg";
 import nodejs from "../../public/nodejs.svg";
@@ -6,24 +6,25 @@ import webpack from "../../public/Webpack.svg";
 import github from "../../public/github.svg";
 import juejin from "../../public/juejin.svg";
 import mingren from "../../public/mingren.jpg";
+import "./ShowPre.css";
 
 // 自定义类型扩展 CSSProperties
 interface CustomCSSProperties extends CSSProperties {
   "--i"?: number;
 }
 const ShowPre: React.FC = () => {
-  useEffect(() => {
-    // 导入 CSS 文件的逻辑
-    import("./ShowPre.css")
-      .then((module) => {
-        // 可以在这里处理导入成功的逻辑
-        console.log("CSS module imported successfully:", module);
-      })
-      .catch((error) => {
-        // 可以在这里处理导入失败的逻辑
-        console.error("Failed to load CSS module:", error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   // 导入 CSS 文件的逻辑
+  //   import("./ShowPre.css")
+  //     .then((module) => {
+  //       // 可以在这里处理导入成功的逻辑
+  //       console.log("CSS module imported successfully:", module);
+  //     })
+  //     .catch((error) => {
+  //       // 可以在这里处理导入失败的逻辑
+  //       console.error("Failed to load CSS module:", error);
+  //     });
+  // }, []);
 
   return (
     <div className="ShowPre">
