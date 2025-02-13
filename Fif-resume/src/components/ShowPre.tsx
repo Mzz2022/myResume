@@ -88,7 +88,7 @@ const ShowPre: React.FC = () => {
             </div>
           </div>
           <div className="btn-sci">
-            <a href="#">
+            <a href="https://mreusme15.netlify.app/">
               <i className="btn">my Resume</i>
             </a>
             <div className="sci">

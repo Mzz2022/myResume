@@ -16,7 +16,7 @@ const Show = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/resume">Resume</Link>
+              <Link to="https://mreusme15.netlify.app/" >Resume</Link>
             </li>
           </ul>
         </nav>
