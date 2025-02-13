@@ -97,14 +97,14 @@ const ShowPre: React.FC = () => {
                 target="_blank"
                 rel="noopener"
               >
-                <img src={github} alt="github" />
+                <img src={github} alt="github" title="我的Github主页"/>
               </a>
               <a
                 href="https://juejin.cn/user/3186806055252135/posts"
                 target="_blank"
                 rel="noopener"
               >
-                <img src={juejin} alt="juejin" />
+                <img src={juejin} alt="juejin" title="我的掘金主页"/>
               </a>
             </div>
           </div>
