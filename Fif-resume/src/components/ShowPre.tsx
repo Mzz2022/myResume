@@ -100,7 +100,7 @@ const ShowPre: React.FC = () => {
                 <img src={github} alt="github" />
               </a>
               <a
-                href="https://blog.csdn.net/Mz0127"
+                href="https://juejin.cn/user/3186806055252135/posts"
                 target="_blank"
                 rel="noopener"
               >
